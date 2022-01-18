@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DailyPracticeProblems
+namespace DailyPracticeProblems  // program for to know the even and odd numbers
 {
     internal class EvenOrAdd
     {
-        public static void DisplayEvenOrAdd()
+        public static void DisplayEvenOrAdd()   //creating method for a class
         {
             Console.WriteLine("Enter a number :"); // Taking the input from the user
             int num = Convert.ToInt32(Console.ReadLine());
