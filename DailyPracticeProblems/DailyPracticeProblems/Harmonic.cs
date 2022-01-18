@@ -20,7 +20,7 @@ namespace project1
             for (i=1; i<=n; i++)
             {
                 Console.WriteLine("1/{0}", i);
-                s+=1 / (float)i;
+                s+=1 / (float)i;  // s=s+(1/(float)i)
             }
             Console.WriteLine("\nSum of Series upto {0} terms : {1} \n", n, s);
         }
