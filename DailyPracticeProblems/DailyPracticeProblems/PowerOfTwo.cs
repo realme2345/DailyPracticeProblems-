@@ -14,8 +14,9 @@ namespace DailyPracticeProblems
             int num = Convert.ToInt32(Console.ReadLine());
             for (int i=1;i<=num;i++)
             {
-                int Value = (2)^num;
-                Console .WriteLine("2^{0}={1}", num,Value);
+                double Sqr = Math.Pow(2, num);
+                Console .WriteLine("2^{0}={1}", num,Sqr);
+                break;
             }
         }
     }
